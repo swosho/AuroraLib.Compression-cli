@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net9.0;net8.0;net6.0;netstandard2.0;net472;</TargetFrameworks>
+    <TargetFramework>net9.0</TargetFramework>
     <RootNamespace>AuroraLibCompression-cli</RootNamespace>
     <Title>AuroraLib.Compression-cli</Title>
     <Version>0.1</Version>
@@ -13,16 +13,11 @@
     <RepositoryUrl>https://github.com/swosho/AuroraLib.Compression-cli</RepositoryUrl>
     <Description>Supports a wide range of compression algorithms mainly used in video games,
 like LZSS, LZ10, LZ11, MIO0, YAZ0, YAY0, PRS, LZ0, ZLib and more.</Description>
-    <NETFrameworks>|netstandard2.0|net481|net48|net472|NET471|NET47|NET462|NET461|</NETFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AuroraLib.Compression" Version="*" />
   </ItemGroup>
-
-  <PropertyGroup Condition="$(NETFrameworks.Contains('|$(TargetFramework)|'))">
-    <LangVersion>9.0</LangVersion>
-  </PropertyGroup>
 
 <PropertyGroup>
   <PublishSingleFile>true</PublishSingleFile>
@@ -30,5 +25,6 @@ like LZSS, LZ10, LZ11, MIO0, YAZ0, YAY0, PRS, LZ0, ZLib and more.</Description>
   <RuntimeIdentifier>win-x64</RuntimeIdentifier>
   <SelfContained>true</SelfContained>
 </PropertyGroup>
+
 
 </Project>
