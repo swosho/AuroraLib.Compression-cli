@@ -10,7 +10,7 @@ AuroraLibCompression-cli.exe -c|-d <algorithm> <inputFile> <outputFile>
 
 Full list of supported algoritms: LZ10, LZ11, LZ40, LZ60, LZ77, MIO0, Yay0, Yaz0, Yaz1, HUF20, RLE30, LZOn, HWGZ, PRS, LZSega, CNX2, COMP, CXLZ, LZ00, LZ01, AKLZ, CNS, CLZ0, FCMP, GCLZ, LZ02, LZHudson, RLHudson, LZShrek, LZSS, RefPack, GZip, ZLib, AsuraZlb, ZLB, ALLZ, LZO, LZ4, MDF0, Level5, SSZL, IECP
 
-Usage example:
+### Usage example:
 ```
 AuroraLibCompression-cli -d allz INPUT.dat OUTPUT.dat
 ```
