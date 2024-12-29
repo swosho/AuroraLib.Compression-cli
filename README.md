@@ -1,5 +1,5 @@
 # AuroraLib.Compression-cli
-A simple command line interface for [AuroraLib.Compression](https://github.com/Venomalia/AuroraLib.Compression) library to operate it as a standalone program.
+A simple command line interface for [AuroraLib.Compression](https://github.com/Venomalia/AuroraLib.Compression) library to make it operate as a standalone program.
 
 ## Usage
 ```
